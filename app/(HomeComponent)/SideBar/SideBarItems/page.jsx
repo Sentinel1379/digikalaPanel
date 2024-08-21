@@ -1,6 +1,5 @@
 "use client";
-
-import { MenuContext } from "@/app/ContextProvider/page";
+import { MenuContext } from "@/app/ContextProvider";
 import { useRouter } from "next/navigation";
 import { useContext, useEffect, useRef, useState } from "react";
 
@@ -9,8 +8,6 @@ export default function SideBarItems() {
   console.log("SideBarItems");
 
   const router = useRouter();
-
-
 
 
   return (

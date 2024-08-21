@@ -1,11 +1,12 @@
+
 import "bootstrap/dist/css/bootstrap.rtl.min.css";
 import "bootstrap-icons/font/bootstrap-icons.min.css";
 import "./css/main.css";
 import Header from "./(HomeComponent)/Header/page";
 import SideBar from "./(HomeComponent)/SideBar/page";
-import { MenuContextProvider } from "./ContextProvider/page";
 import Help from "./(HomeComponent)/Help/page";
 import MobileFooter from "./(HomeComponent)/MobileFooter/page";
+import { MenuContextProvider } from "./ContextProvider";
 
 export const metadata = {
   title: "فروشگاه اینترنتی دیجی کالا",

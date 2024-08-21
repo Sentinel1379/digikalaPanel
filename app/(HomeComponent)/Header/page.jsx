@@ -3,8 +3,8 @@
 import { useContext, useEffect, useRef, useState } from "react";
 import ProductionMenu from "./ProductionMenu/page";
 import ModalAddress from "./ModalAddress/page";
-import { MenuContext } from "@/app/ContextProvider/page";
 import { useRouter } from "next/navigation";
+import { MenuContext } from "@/app/ContextProvider";
 
 export default function Header() {
   const { itemBold, setItemBold } = useContext(MenuContext);
