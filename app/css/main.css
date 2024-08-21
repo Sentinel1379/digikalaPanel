@@ -1149,7 +1149,7 @@ a, button, span, div, p {
   display: none;
   background-color: #0c0c0c;
   width: 100vw;
-  height: 85%;
+  height: calc(100% - 119px);
   left: 0;
   bottom: 0;
   z-index: 2;
