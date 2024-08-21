@@ -1,0 +1,91 @@
+.Modal-address {
+    z-index: 100;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: opacity .25s ease-in-out;
+    z-index: 2;
+}
+
+.Modal-address-content {
+    border-radius: 8px;
+    border: 0;
+}
+
+.Modal-address-header {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #e0e0e2;
+
+    & h1 {
+        color: #0c0c0c;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+
+.btn-close {
+    color: #424750;
+    width: 24px;
+    height: 24px;
+}
+
+.Modal-address-body {
+    padding: 16px 32px;
+
+    &-item {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        display: flex;
+        align-items: center;
+
+        & input {
+            width: 22px;
+            height: 22px;
+            box-shadow: none;
+            border-color: #424750;
+            outline: 0;
+        }
+
+        & label {
+            margin-right: 16px;
+            font-size: 16px;
+            padding-top: 3px;
+        }
+
+        .form-check-input:checked {
+            background-color: #19BFD3 ;
+            border: 0 !important;
+            outline: 0;
+        }
+
+        .form-check-input:focus {
+            background-color: #19BFD3 ;
+            border: 0 !important;
+            outline: 0 !important;
+            box-shadow: none !important;
+        }
+    }
+
+    .Modal-address-add {
+        padding: 12px 0;
+
+        & button {
+            display: flex;
+            align-items: center;
+            padding: 0;
+        }
+
+        & i {
+            color: #19bfd3;
+            font-size: 24px;
+        }
+
+        & span {
+            color: #19bfd3;
+            font-size: 16px;
+            margin-right: 16px;
+        }
+    }
+}

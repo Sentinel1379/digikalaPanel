@@ -1,0 +1,176 @@
+.Help {
+    position: fixed;
+    bottom: 32px;
+    right: 50px;
+
+    & button {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ef4056;
+        color: #fff;
+        padding: 12px;
+        height: 3.8rem;
+        width: 3.8rem;
+        border-radius: 2.5rem;
+        border: 0;
+
+        &:hover {
+            background-color: #ef4056;
+            color: #fff;
+        }
+
+        &:active {
+            background-color: #ef4056;
+            color: #fff;
+        }
+    }
+
+    & i {
+        font-size: 24px;
+        margin-top: 6px;
+    }
+
+    &-container {
+        width: 400px;
+        border: 1px solid #ef4056;
+        border-radius: 16px;
+        background-color: #fff;
+        position: absolute;
+        bottom: 100%;
+        overflow: auto;
+    }
+
+    &-header {
+        padding: 8px 20px;
+        color: #fff;
+        background-color: #ef4056;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & h2 {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 2;
+            margin-bottom: 4px;
+        }
+
+        & i {
+            font-size: 28px;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+
+    &-body {
+        padding: 12px 8px 20px 8px;
+        overflow: auto;
+        height: 60vh;
+
+        &-text1 {
+            margin-bottom: 4px;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 2;
+        }
+
+        &-text2 {
+            margin-bottom: 0px;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 2;
+        }
+
+        &-Q {
+            margin-top: 16px;
+            margin-bottom: 20px;
+
+            &>li {
+                padding: 20px 12px;
+                border: 1px solid #e0e0e2;
+                border-radius: 8px;
+                width: 100%;
+                margin: 8px 0;
+            }
+
+            &-question {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 2;
+                padding-bottom: 12px;
+
+                & span {
+                    padding: 0 5px;
+                }
+
+                & i {
+                    font-size: 22px;
+                    color: #424750;
+                    margin-right: 8px;
+                    transition: transform .2s;
+                    transform: rotate(.5turn);
+                }
+            }
+
+            &-answer {
+                border-top: 1px solid #f0f0f1;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 2.2;
+                padding-top: 12px;
+
+                & p {
+                    margin-bottom: 0;
+                    color: #000000;
+                }
+            }
+        }
+
+        &-talking {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & p {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 2;
+                text-align: center;
+                margin-bottom: 8px;
+            }
+
+            & button {
+                padding: 12px 16px;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 2;
+                display: flex;
+                align-items: center;
+                background-color: #19bfd3;
+                color: #fff;
+                height: 3.2rem;
+                width: 60%;
+                border-radius: 2.5rem;
+                border: 0;
+
+                &:hover {
+                    background-color: #19bfd3;
+                    color: #fff;
+                } 
+
+                & i {
+                    font-size: 16px;
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
+}

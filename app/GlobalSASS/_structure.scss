@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Sahel !important;
+    direction: rtl;
+    background-color: #fff;
+    overflow: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+a , button , span , div , p {
+    font-family: Sahel !important;
+}
+
+@mixin Dflex () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

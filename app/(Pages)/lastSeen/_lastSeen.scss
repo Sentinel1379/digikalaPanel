@@ -1,0 +1,216 @@
+.LastSeen {
+    padding: 5px;
+
+    &-container {
+        background-color: #fff;
+        border: 1px solid #e0e0e2;
+        border-radius: 8px;
+        margin-bottom: 16px;
+    }
+
+    &-header {
+        padding: 16px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-title {
+            padding: 12px 0;
+            position: relative;
+
+            & p {
+                margin-bottom: 0;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 2;
+                color: #0c0c0c;
+            }
+
+            &-underline {
+                width: 4rem;
+                height: .1rem;
+                margin-top: 8px;
+                background-color: #ef394e;
+            }
+        }
+    }
+
+    &-body {
+        padding: 8px;
+
+        &-card {
+
+            &-container {
+                padding: 12px 8px;
+                background-color: #fff;
+                display: flex;
+                flex-direction: column;
+
+                &:hover {
+                    filter: drop-shadow(0 1px 5px rgba(0,0,0,.2));
+                }
+            }
+
+            &-image {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                & img {
+                    width: 150px;
+                    height: 150px;
+                    object-fit: contain;
+                }
+            }
+
+            &-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+
+                &-r1 {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 8px;
+
+                    & span {
+                        background-color: rgba(249,168,37 , .3);
+                        color: #f57f17;
+                        border-radius: 12px;
+                        font-size: 12px;
+                        font-weight: 700;
+                        line-height: 2;
+                        padding-left: 8px;
+                        padding-right: 8px;
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+
+                &-r2 {
+                    height: 52px;
+                    font-size: 14px;
+                    line-height: 2;
+                    font-weight: 700;
+                    color: #3f4064;
+                    margin: 0;
+                }
+
+                &-r3 {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    & p {
+                        font-size: 12px;
+                        line-height: 2;
+                        font-weight: 400;
+                        margin-bottom: 0;
+                    }
+
+                    .Score {
+                        display: flex;
+                        align-items: center;
+                        font-size: 13px;
+                        line-height: 2;
+                        font-weight: 700;
+                        color: #3f4064;
+
+                        & i {
+                            font-size: 14px;
+                            color: #f9bc00;
+                            margin-right: 4px;
+                        }
+                    }
+                }
+
+                &-r4 {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    font-size: 17px;
+                    font-weight: 700;
+                    line-height: 2;
+                    color: #3f4064;
+                    margin-top: 8px;
+                }
+            }
+
+            &-buttons {
+                margin-top: 35px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &-remove {
+                    border: 1px solid #E0E0E8;
+                    border-radius: 8px;
+                    background-color: transparent;
+                    color: #a1a3a8;
+                    padding: 4px 16px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 36px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 2;
+                    width: 22%;
+
+                    & i {
+                        margin-left: 4px;
+                    }
+
+                    &:hover {
+                        border: 1px solid #E0E0E8;
+                        background-color: transparent;
+                        color: #a1a3a8;
+                    }
+                }
+
+                &-add {
+                    border: 1px solid #ef4056;
+                    border-radius: 8px;
+                    background-color: transparent;
+                    color: #ef4056;
+                    padding: 4px 16px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 36px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 2;
+                    width: 76%;
+
+                    & i {
+                        margin-left: 4px;
+                    }
+
+                    &:hover {
+                        border: 1px solid #ef4056;
+                        background-color: transparent;
+                        color: #ef4056;
+                    }
+                }
+            }
+
+            .Br {
+                display: flex;
+                align-items: center;
+                font-size: 12px ;
+                font-weight: 800;
+                line-height: 2;
+            }
+
+        }
+
+        .B-l {
+            border-left: 1px solid #f0f0f1;
+        }
+
+        .B-b {
+            border-bottom: 1px solid #f0f0f1;
+        }
+    }
+}

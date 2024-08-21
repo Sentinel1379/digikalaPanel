@@ -1,0 +1,174 @@
+.SideBar {
+
+    &-container {
+        border: 1px solid #e0e0e2;
+        background-color: #fff;
+        border-radius: 8px;
+    }
+
+    &-row1 {
+        padding: 16px 0;
+        margin: 0 16px;
+        border-bottom: 1px solid #f0f0f1;
+
+        &-prof {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .SideBar-prof-name {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 2;
+                color: #23254e;
+                margin-bottom: 0;
+            }
+
+            .SideBar-prof-number {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 2;
+                color: #a1a3a8;
+                margin-bottom: 0;
+            }
+
+            .SideBar-prof-editIcon {
+
+                & i {
+                    font-size: 20px;
+                    color: #19bfd3;
+                    margin-top: 4px;
+                }
+            }
+        }
+
+        &-pay {
+            margin-top: 8px;
+
+            .SideBar-pay-wallet {
+
+                &-title {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 5px;
+
+                    & h3 {
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 2;
+                        margin-left: 8px;
+                        margin-bottom: 2px;
+                    }
+
+                    .SideBar-pay-wallet-much {
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 2;
+                        color: #23255A;
+                    }
+                }
+
+                &-edit {
+                    font-size: 13px;
+                    font-weight: 700;
+                    line-height: 2;
+                    color: #19bfd3;
+
+                    & i {
+                        margin-right: 4px;
+                    }
+                }
+            }
+
+            .SideBar-pay-club {
+                margin-top: 8px;
+
+                &-title {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 5px;
+
+                    & h3 {
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 2;
+                        margin-left: 8px;
+                        margin-bottom: 2px;
+                    }
+
+                    & div {
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    & p {
+                        margin-bottom: 0;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 2;
+                        color: #23255A;
+                    }
+
+                    & span {
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 2;
+                        color: #23255A;
+                        margin-right: 3px;
+                    }
+                }
+
+                &-edit {
+                    font-size: 13px;
+                    font-weight: 700;
+                    line-height: 2;
+                    color: #19bfd3;
+
+                    & i {
+                        margin-right: 4px;
+                    }
+                }
+            }
+        }
+    }
+
+    &-row2 {
+        padding-bottom: 8px;
+        background-color: #fff;
+
+        &-item {
+            padding: 0 20px;
+            position: relative;
+
+            .Back-line {
+                position: absolute;
+                top: 8px;
+                right: 0;
+                height: calc(100% - 16px);
+                width: 4px;
+                border-radius: 2px 0 0 2px;
+                background-color: #ef394e;
+            }
+
+            &-a {
+                padding: 12px 0;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+
+                & i {
+                    font-size: 24px;
+                    margin-left: 16px;
+                }
+
+                &-text {
+                    font-size: 16px;
+                    line-height: 2;
+                    color: #3f4064;
+                }
+            }
+        }
+    }
+}

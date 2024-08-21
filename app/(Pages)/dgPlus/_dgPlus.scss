@@ -1,0 +1,169 @@
+.DgPlus {
+    padding: 5px;
+
+    &-row1 {
+        padding: 16px 20px;
+        margin-bottom: 16px;
+        border: 1px solid #e0e0e2;
+        border-radius: 8px;
+
+        &-title {
+            padding: 12px 0;
+            margin-bottom: 20px;
+
+            & p {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 2;
+                margin-bottom: 0;
+                color: #0c0c0c;
+            }
+        }
+
+        &-buy {
+            width: 45%;
+            padding: 16px;
+            color: #fff;
+            border-radius: 16px;
+            background: #e0e0e2 url(../assets/back.svg) no-repeat left top;
+            background-size: cover;
+
+            & p {
+                font-size: 24px;
+                font-weight: 800;
+                line-height: 2;
+                color: #3f4064;
+                padding: 24px 16px;
+                margin-top: 10px;
+            }
+
+            & div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 26px;
+            }
+
+            & button {
+                padding: 12px 16px;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 2;
+                background-color: #b12ba4;
+                color: #fff;
+                width: 100%;
+
+                &:hover {
+                    background-color: #b12ba4;
+                    color: #fff;
+                }
+            }
+        }
+
+        &-history {
+            padding: 20px 0 4px 0;
+            border-top: 1px solid #F0F0F4;
+            margin-top: 16px;
+
+            &-a {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &-text {
+                    display: flex;
+                    align-items: center;
+
+                    & i {
+                        color: #42475B;
+                        font-size: 24px;
+                        margin-left: 12px;
+                    }
+
+                    & span {
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 2;
+                        color: #3f4064;
+                    }
+                }
+
+                &>i {
+                    color: #42475B;
+                    font-size: 16px;
+                    margin-left: 8px;
+                    margin-left: 12px;
+
+                    &::before {
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+    }
+
+    &-row2 {
+        border: 1px solid #E0E0DC;
+        border-radius: 8px;
+        padding: 12px 0 ;
+        margin-bottom: 8px;
+        display: flex;
+
+        &-col {
+            padding: 0 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 50%;
+
+            &-image {
+                width: 56px;
+                height: 56px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                & img {
+                    object-fit: contain;
+                }
+            }
+
+            &-text {
+                padding: 12px 16px 12px 0;
+
+                & p {
+                    color: #3f4064;
+                    font-size: 17px;
+                    font-weight: 700;
+                    line-height: 2;
+                    margin-bottom: 0;
+                }
+
+                & span {
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 2;
+                    color: #a1a3a8;
+                }
+            }
+
+            &-detail {
+
+
+                & a {
+                    font-size: 14px ;
+                    font-weight: 700;
+                    line-height: 2;
+                    color: #a63489;
+                }
+
+                & i {
+                    color: #a63489;
+                    font-size: 14px;
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
+
+}

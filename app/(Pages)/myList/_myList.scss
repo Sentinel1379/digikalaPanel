@@ -1,0 +1,161 @@
+.MyList {
+    padding: 5px;
+
+    &-container {
+        border: 1px solid #E0E0E0;
+        border-radius: 8px;
+        margin-bottom: 16px;
+        background-color: #fff;
+    }
+
+    &-row1 {
+        padding: 16px 20px;
+        display: flex;
+        align-items: center;
+
+        &-title {
+            padding: 12px 0;
+
+            & p {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 2;
+                margin-bottom: 0;
+                color: #0c0c0c;
+            }
+        }
+    }
+
+    &-row2 {
+
+        &-tabs {
+            border-bottom: 1px solid #E0E0E4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+
+            &-item {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 2;
+                color: #ef4056;
+                padding: 8px 16px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                cursor: pointer;
+
+                &-text {
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 2;
+                    color: #EF405A;
+                    display: flex;
+                    align-items: center;
+                }
+
+                &-underline {
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    width: calc(100% - 16px);
+                    height: 4px;
+                    transform: translateX(-50%);
+                    border-top-left-radius: 8px;
+                    border-top-right-radius: 8px;
+                    background-color: #ef4056;
+                }
+            }
+        }
+
+        &-list {
+            margin: 0;
+            padding: 0 16px;
+
+            &-item {
+
+                &-contaner {
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #fff;
+                }
+
+                &-notif {
+                    padding: 12px;
+                    border-bottom: 1px solid #E0E0E4;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    &-text {
+
+                        & p {
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 2;
+                            margin-bottom: 0;
+                        }
+
+                        & i {
+                            font-size: 24px;
+                            color: #424750;
+                            margin-left: 8px;
+                        }
+
+                        & span {
+                            color: #81858b;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 2;
+                        }
+                    }
+
+                    &-btn {
+                        
+                        & input {
+                            border: 2px solid #000;
+
+                            &:checked {
+                                background-color: #19bfd3;
+                                border-color: #19bfd3;
+                            }
+                        }
+
+                        .form-check-input:focus {
+                            outline: 0;
+                            box-shadow: none;
+                        }
+                    }
+                }
+
+                &-empty {
+                    padding: 80px 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    &-Icon {
+                        width: 290px;
+                        height: 150px;
+                        display: flex;
+                        justify-content: center;
+    
+                        & img {
+                            object-fit: contain;
+                        }
+                    }
+    
+                    &-Text {
+                        font-size: 17px;
+                        font-weight: 400;
+                        line-height: 2;
+                        color: #0c0c0c;
+                    }
+                }
+            }
+        }
+    }
+}

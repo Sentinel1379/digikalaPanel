@@ -1,0 +1,182 @@
+.Address {
+    padding: 5px;
+
+    &-container {
+        background-color: #fff;
+        border: 1px solid #e0e0e2;
+        border-radius: 8px;
+        margin-bottom: 16px;
+    }
+
+    &-header {
+        padding: 16px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-title {
+            padding: 12px 0;
+            position: relative;
+
+            & p {
+                margin-bottom: 0;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 2;
+                color: #0c0c0c;
+            }
+
+            &-underline {
+                width: 5rem;
+                height: .1rem;
+                margin-top: 8px;
+                background-color: #ef394e;
+            }
+        }
+
+        &-editBTN {
+            border: 1px solid #ef4056;
+            border-radius: 8px;
+            background-color: transparent;
+            color: #ef4056;
+            padding: 14px 18px;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 2;
+            height: 50px;
+            display: flex;
+            align-items: center;
+
+            & i {
+                font-size: 22px;
+                color: #ef4056;
+                margin-left: 4px;
+                display: flex;
+                align-items: center;
+            }
+
+            &:hover {
+                border: 1px solid #ef4056;
+                background-color: transparent;
+                color: #ef4056;
+            }
+        }
+    }
+
+    &-body {
+        padding: 0 24px;
+
+        &-item {
+            padding: 16px 0;
+
+            &-row1 {
+                margin-bottom: 16px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                & p {
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 2;
+                    margin-bottom: 0;
+                    color: #3f4064;
+                }
+
+                &-more {
+                    border: 0;
+                    background-color: transparent;
+                    position: relative;
+
+                    & i {
+                        color: #424750;
+                        font-size: 20px;
+                    }
+
+                    &:hover {
+                        border: 0;
+                        background-color: transparent;
+                    }
+
+                    &:focus .Address-body-item-row1-more-menu {
+                        display: block;
+                    }
+
+                    &-menu {
+                        border-radius: 8px;
+                        padding: 8px;
+                        position: absolute;
+                        left: 0;
+                        display: none;
+
+                        .More-menu-container {
+                            box-shadow: 0px 1px 5px rgba(0,0,0,.2);
+                            border-radius: 8px;
+                            padding: 8px 0;
+                            background-color: #fff;
+                        }
+
+                        .More-menu-item {
+                            width: 280px;
+                            padding: 8px 20px;
+                            display: flex;
+                            align-items: center;
+                            background-color: transparent;
+                            border: 0;
+
+                            & i {
+                                font-size: 24px;
+                                color: #d32f2f;
+                                margin-left: 16px;
+                            }
+
+                            & span {
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 2px;
+                            }
+
+                            &:hover {
+                                background-color: #f0f0f1;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &-row2 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &-text {
+                    color: #81858b;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 2;
+
+                    &>div {
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    & i {
+                        color: #a1a3a8;
+                        font-size: 20px;
+                        margin-left: 8px;
+                    }
+                }
+
+                &-image {
+                    border-radius: 8px;
+                    
+                    & img {
+                        width: 100%;
+                        object-fit: contain;
+                        border-radius: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
